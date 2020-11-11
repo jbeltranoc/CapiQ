@@ -8,7 +8,7 @@
     "node_priority":0,
     "node_level":0,
     "node_selection":"S"
-  }
+  },
    {
     "id":2,
     "name":"node_b",
@@ -17,7 +17,7 @@
     "node_priority":0,
     "node_level":0,
     "node_selection":"S"
-  }
+  },
    {
     "id":3,
     "name":"node_c",
