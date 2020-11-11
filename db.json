@@ -1,0 +1,89 @@
+{
+  "cpq_configuration_node":[
+    {
+    "id":1,
+    "name":"node_a",
+    "mother_node_id":0,
+    "optional_mode":0,
+    "node_priority":0,
+    "node_level":0,
+    "node_selection":"S"
+  }
+   {
+    "id":2,
+    "name":"node_b",
+    "mother_node_id":0,
+    "optional_mode":1,
+    "node_priority":0,
+    "node_level":0,
+    "node_selection":"S"
+  }
+   {
+    "id":3,
+    "name":"node_c",
+    "mother_node_id":0,
+    "optional_mode":0,
+    "node_priority":0,
+    "node_level":0,
+    "node_selection":"M"
+  }
+  ],
+  "cpq_configuration_products":[
+    {"id":1,
+      "configuration_node_id":1,
+      "article_id":1
+    },
+    {"id":2,
+      "configuration_node_id":2,
+      "article_id":2},
+    {"id":3,
+      "configuration_node_id":3,
+      "article_id":3}
+    ],
+    "cpq_master_article":[
+      {
+        "id":1,
+        "number":"10",
+        "name":"test1",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "short_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "unit_id":1
+      },
+      {
+        "id":1,
+        "number":"20",
+        "name":"test02",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "short_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "unit_id":1
+      },
+      {
+        "id":1,
+        "number":"30",
+        "name":"test03",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "short_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "unit_id":1
+      }
+      ],
+    "oc_const_unit":[
+      {
+        "id":"1",
+        "number":"10",
+        "name":"unit1"
+      },
+      {
+        "id":"2",
+        "number":"20",
+        "name":"unit2"
+      },
+      {
+        "id":"3",
+        "number":"30",
+        "name":"unit3"
+      }
+      
+      ]
+  
+  
+}
